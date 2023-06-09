@@ -1,0 +1,29 @@
+::ng-deep mat-tab-header {
+  width: 400px;
+}
+
+mat-card {
+  cursor: pointer;
+}
+
+.navbar ul button {
+  background-color: rgb(245, 245, 245);
+  color: rgb(45, 45, 45);
+}
+.navbar form button {
+  margin-right: 12px;
+  border-radius: 18px;
+  padding: 9px 20px;
+}
+.navbar form {
+  margin-left: 18px;
+}
+.navbar form .btn1 {
+  background-color: rgb(255, 242, 229);
+}
+.navbar form .btn2 {
+  background-color: rgb(254, 239, 239);
+}
+.navbar form .btn3 {
+  background-color: rgb(235, 246, 255);
+}

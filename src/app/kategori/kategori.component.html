@@ -1,0 +1,13 @@
+<mat-card>
+  <div class="row">
+    <button
+      *ngFor="let kategori of kategoriler"
+      routerLink="urunler/{{
+        kategori.name | lowercase | turkishToEnglish | boslukSil
+      }}"
+      class="btn"
+    >
+      {{ kategori.name | uppercase }}
+    </button>
+  </div>
+</mat-card>

@@ -1,0 +1,11 @@
+<div class="container bg-light">
+  <div class="row mx-2">
+    <div class="col-lg-2 col-md-3 col-sm-4 p-0" *ngFor="let urun of menus">
+      <mat-card (click)="siparis(urun)" class="mt-2">
+        <h4>{{ urun.urunAdi }}</h4>
+
+        <span> {{ urun.fiyat | currency : "TRY" }} </span>
+      </mat-card>
+    </div>
+  </div>
+</div>

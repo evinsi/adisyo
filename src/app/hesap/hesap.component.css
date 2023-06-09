@@ -1,0 +1,87 @@
+mat-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  height: 707px;
+}
+@media (max-width: 800px) {
+  .area {
+    width: 100% !important;
+  }
+}
+.btnArea {
+  position: fixed;
+  bottom: 20px;
+}
+.btnArea button {
+  width: 360px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 4px;
+}
+.btnArea mat-icon {
+  margin-left: 10px;
+  color: red;
+}
+mat-list {
+  overflow-y: auto;
+  max-height: 450px;
+}
+mat-list-item {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 140px;
+  cursor: pointer !important;
+}
+mat-list-item:hover {
+  background-color: #f9f9f9;
+}
+
+.iconArea {
+  height: 100px;
+  border: 1px solid #edecec;
+  border-radius: 6px;
+  padding: 0px;
+}
+
+.iconArea button {
+  background-color: #e8e8e8;
+  border-radius: 0px;
+  font-size: 14px;
+  margin: 5px 0px;
+  color: red;
+}
+.iconArea mat-icon {
+  font-size: 22px;
+  color: red;
+}
+
+.priceArea button {
+  background-color: #f9f9f9;
+  margin-left: 4px;
+  border-radius: 3px;
+  color: red;
+}
+
+.priceArea div {
+  margin-right: 15px;
+  color: red;
+}
+.priceArea button:hover {
+  background-color: #efefef;
+}
+
+.title {
+  color: red;
+}
+.title span {
+  font-size: 13px;
+}
+.title div {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.toplam {
+  padding: 12px;
+  position: fixed;
+  bottom: 80px;
+}

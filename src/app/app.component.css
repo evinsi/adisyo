@@ -1,0 +1,6 @@
+@media (max-width: 800px) {
+  .area {
+    display: flex;
+    flex-direction: column !important;
+  }
+}

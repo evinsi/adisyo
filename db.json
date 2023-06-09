@@ -1,0 +1,208 @@
+{
+  "kategori": [
+    {
+      "name": "Favori Ürünler"
+    },
+    {
+      "name": "ana yemekler"
+    },
+    {
+      "name": "menü ürün deneme"
+    },
+    {
+      "name": "milkshake"
+    },
+    {
+      "name": "tatlı ve pastalar"
+    },
+    {
+      "name": "yiyecekler"
+    },
+    {
+      "name": "türk kahvesi"
+    },
+    {
+      "name": "soğuk içecekler"
+    },
+    {
+      "name": "sandviçler"
+    },
+    {
+      "name": "alkolsüz içecekler"
+    },
+    {
+      "name": "tava balıkları"
+    },
+    {
+      "name": "kırmızı etler"
+    },
+    {
+      "name": "salatalar"
+    },
+    {
+      "name": "içecekler"
+    }
+  ],
+  "urunler": [
+    {
+      "urunAdi": "Mazorelli",
+      "urunKategori": "anayemekler",
+      "fiyat": 20
+    },
+    {
+      "urunAdi": "Tavuk sote",
+      "urunKategori": "anayemekler",
+      "fiyat": 30
+    },
+    {
+      "urunAdi": "Et sote",
+      "urunKategori": "anayemekler",
+      "fiyat": 40
+    },
+    {
+      "urunAdi": "arnavut ciğeri",
+      "urunKategori": "anayemekler",
+      "fiyat": 70
+    },
+    {
+      "urunAdi": "mantarlı tavuk",
+      "urunKategori": "anayemekler",
+      "fiyat": 100
+    },
+    {
+      "urunAdi": "ızgara köfte",
+      "urunKategori": "anayemekler",
+      "fiyat": 20
+    },
+    {
+      "urunAdi": "tavuk schnitzel",
+      "urunKategori": "anayemekler",
+      "fiyat": 20
+    },
+    {
+      "urunAdi": "ızgara tavuk göğsü",
+      "urunKategori": "anayemekler",
+      "fiyat": 50
+    },
+    {
+      "urunAdi": "tavuk fajita dürüm",
+      "urunKategori": "anayemekler",
+      "fiyat": 40
+    },
+    {
+      "urunAdi": "tavuklu labne dürüm",
+      "urunKategori": "anayemekler",
+      "fiyat": 35
+    },
+    {
+      "urunAdi": "mantarlı balık",
+      "urunKategori": "favoriurunler",
+      "fiyat": 36
+    },
+    {
+      "urunAdi": "börek",
+      "urunKategori": "menuurundeneme",
+      "fiyat": 80
+    }
+  ],
+  "sepet": [
+    {
+      "urunAdi": "tavuklu labne dürüm",
+      "fiyat": 35,
+      "kategori": "anayemekler",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "4",
+      "id": 4
+    },
+    {
+      "urunAdi": "börek",
+      "fiyat": 80,
+      "kategori": "menuurundeneme",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "3",
+      "id": 6
+    },
+    {
+      "urunAdi": "börek",
+      "fiyat": 80,
+      "kategori": "menuurundeneme",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "4",
+      "id": 7
+    },
+    {
+      "urunAdi": "börek",
+      "fiyat": 80,
+      "kategori": "menuurundeneme",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "2",
+      "id": 17
+    },
+    {
+      "urunAdi": "Mazorelli",
+      "fiyat": 20,
+      "kategori": "anayemekler",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "1",
+      "id": 18
+    },
+    {
+      "urunAdi": "Tavuk sote",
+      "fiyat": 30,
+      "kategori": "anayemekler",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "1",
+      "id": 19
+    },
+    {
+      "urunAdi": "Et sote",
+      "fiyat": 40,
+      "kategori": "anayemekler",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "1",
+      "id": 20
+    },
+    {
+      "urunAdi": "Et sote",
+      "fiyat": 40,
+      "kategori": "anayemekler",
+      "delOrMin": true,
+      "adet": 1,
+      "masaNo": "3",
+      "id": 21
+    }
+  ],
+  "masa": [
+    {
+      "masaNo": 1,
+      "name": "Masa 1",
+      "user": "Serdar Bölüm",
+      "toplamFiyat": "200"
+    },
+    {
+      "masaNo": 2,
+      "name": "Masa 2",
+      "user": "Serdar Bölüm",
+      "toplamFiyat": "200"
+    },
+    {
+      "masaNo": 3,
+      "name": "Masa 3",
+      "user": "Serdar Bölüm",
+      "toplamFiyat": "200"
+    },
+    {
+      "masaNo": 4,
+      "name": "Masa 4",
+      "user": "Serdar Bölüm",
+      "toplamFiyat": "200"
+    }
+  ]
+}

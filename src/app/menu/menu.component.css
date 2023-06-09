@@ -1,0 +1,20 @@
+button {
+  border-radius: 0px;
+  width: 168px;
+  height: 60px;
+  border-right: 1px solid rgb(237, 236, 236);
+  margin-bottom: 5px;
+}
+span {
+  position: absolute;
+  bottom: 15px;
+}
+
+mat-card {
+  max-width: 154px;
+  padding: 15px;
+  margin: 0px;
+  min-height: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+}
