@@ -22,7 +22,6 @@ export class HesapComponent implements OnInit {
   }
   addUrun(urun: any) {
     urun.adet++;
-    var z;
 
     if (urun.adet > 1) {
       urun.delOrMin = false;
